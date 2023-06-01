@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    height: 0;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background:url('../img/paper-ge676c3a1d_1280.jpg');
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;align-content: center;
+    background-attachment: fixed;
+}
+#telefone{
+
+    height: 627px;
+    width: 311px;
+    background-image: url('../img/frame-iphone.png');
+    background-repeat: no-repeat;
+}
