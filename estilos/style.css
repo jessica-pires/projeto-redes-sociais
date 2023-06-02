@@ -5,14 +5,14 @@
 }
 html, body{
     height: 90vh;
-    width: 90vw;
+   /*  width: 80vw; */
 }
 body{
    background:url('../img/paper-ge676c3a1d_1280.jpg');
 }
- div{
+ div#ifhone{
        
-    height: 100vh;
+   /*  height: 100vh; */
     display: flex;
     justify-content: center;align-content: center;
 
@@ -23,7 +23,7 @@ body{
     top: 50%;
     left: 50%;
     height: 627px;
-    width: 311px;
+    width: 600px;
     background-image: url('../img/frame-iphone.png');
     background-repeat: no-repeat;
 }
@@ -31,16 +31,33 @@ iframe#tela{
      position: relative; 
     top: 80px;
     left: 22px;
-    width: 269px;
-    height: 471px;
+    width: 267px;
+    height:471px;
 }
 section#icones img{
     width: 50px;
     height:50px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #0000007b;
+    box-sizing: border-box;
 }
 section#icones{
-    text-align: right;
+    margin: 5px 0px 0px 20px;
+   /*  text-align: right; */
+   
 }
+div#icones-sociais{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+section#icones img:hover{
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.62);
+    transform: translate(-3px, -3px);
+    border: 2px solid rgba(255, 255, 255, 0.467);
+    transition: transform 0.5s, border 1s;  
+
+}
+
 
